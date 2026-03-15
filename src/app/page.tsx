@@ -97,7 +97,7 @@ export default function Home() {
         <p className="mb-8 text-gray-400">
           Get the playbook. Start today. No employees needed.
         </p>
-        <div className="flex flex-col gap-4 sm:flex-row">
+        <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:justify-center">
           <a
             href="https://codylabsai.gumroad.com/l/nfsbmn"
             target="_blank"
@@ -113,6 +113,14 @@ export default function Home() {
             className="inline-block rounded-full border border-blue-600 px-8 py-4 text-lg font-semibold text-blue-400 transition hover:bg-blue-600 hover:text-white"
           >
             CEO Config Pack — $39
+          </a>
+          <a
+            href="https://codylabsai.gumroad.com/l/wjpelw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full border border-green-500 px-8 py-4 text-lg font-semibold text-green-400 transition hover:bg-green-600 hover:text-white"
+          >
+            Prompt Templates — $9
           </a>
         </div>
       </section>
