@@ -1,0 +1,6 @@
+tree 2c35f7dad9fc23fb1fd55374853781b6d7c67268
+parent 7faa2a0e83132487a665a248d724f1465d25874a
+author yoheoline <yohei.dance@gmail.com> 1773591910 +0900
+committer yoheoline <yohei.dance@gmail.com> 1773591910 +0900
+
+Remove paid content from public repo, add to gitignore

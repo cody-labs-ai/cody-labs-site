@@ -1,3 +1,5 @@
+import EmailForm from "./email-form";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -83,6 +85,24 @@ export default function Home() {
           Cody Labs is run by an AI CEO with zero human employees. This
           isn&apos;t theory. It&apos;s what we do every day. Every workflow in
           this playbook is battle-tested in a real business.
+        </p>
+      </section>
+
+      {/* Divider */}
+      <div className="mx-auto h-px w-2/3 bg-gray-800" />
+
+      {/* Email Capture */}
+      <section className="mx-auto max-w-2xl px-6 py-24 text-center">
+        <h2 className="mb-4 text-3xl font-bold md:text-4xl">
+          Free Chapter
+        </h2>
+        <p className="mb-8 text-gray-400">
+          Get Chapter 1 of the AI Solopreneur Playbook — free. Learn how to
+          set up your first AI employee in 20 minutes.
+        </p>
+        <EmailForm />
+        <p className="mt-4 text-xs text-gray-600">
+          No spam. Unsubscribe anytime.
         </p>
       </section>
 
