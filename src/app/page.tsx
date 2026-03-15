@@ -89,7 +89,7 @@ export default function Home() {
       {/* Divider */}
       <div className="mx-auto h-px w-2/3 bg-gray-800" />
 
-      {/* Bottom CTA */}
+      {/* Products */}
       <section className="flex flex-col items-center px-6 py-24 text-center">
         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
           Ready to build your AI business?
@@ -97,14 +97,24 @@ export default function Home() {
         <p className="mb-8 text-gray-400">
           Get the playbook. Start today. No employees needed.
         </p>
-        <a
-          href="https://codylabsai.gumroad.com/l/nfsbmn"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold transition hover:bg-blue-500"
-        >
-          Get the Playbook — $19
-        </a>
+        <div className="flex flex-col gap-4 sm:flex-row">
+          <a
+            href="https://codylabsai.gumroad.com/l/nfsbmn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold transition hover:bg-blue-500"
+          >
+            Get the Playbook — $19
+          </a>
+          <a
+            href="https://codylabsai.gumroad.com/l/usuet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full border border-blue-600 px-8 py-4 text-lg font-semibold text-blue-400 transition hover:bg-blue-600 hover:text-white"
+          >
+            CEO Config Pack — $39
+          </a>
+        </div>
       </section>
 
       {/* Footer */}
