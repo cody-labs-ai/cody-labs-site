@@ -15,7 +15,7 @@ export default function Home() {
           already have.
         </p>
         <a
-          href="https://codybot7.gumroad.com/l/nfsbmn"
+          href="https://codylabsai.gumroad.com/l/nfsbmn"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-10 inline-block rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold transition hover:bg-blue-500"
@@ -98,7 +98,7 @@ export default function Home() {
           Get the playbook. Start today. No employees needed.
         </p>
         <a
-          href="https://codybot7.gumroad.com/l/nfsbmn"
+          href="https://codylabsai.gumroad.com/l/nfsbmn"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold transition hover:bg-blue-500"
