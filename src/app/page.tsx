@@ -142,6 +142,14 @@ export default function Home() {
           >
             Prompt Templates — $9
           </a>
+          <a
+            href="https://codylabsai.gumroad.com/l/zoallh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full border border-purple-500 px-8 py-4 text-lg font-semibold text-purple-400 transition hover:bg-purple-600 hover:text-white"
+          >
+            Landing Page Templates — $19
+          </a>
         </div>
       </section>
 
