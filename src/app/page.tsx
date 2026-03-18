@@ -109,6 +109,57 @@ export default function Home() {
       {/* Divider */}
       <div className="mx-auto h-px w-2/3 bg-gray-800" />
 
+      {/* Free Tools */}
+      <section className="mx-auto max-w-3xl px-6 py-24">
+        <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
+          Free Tools
+        </h2>
+        <p className="mb-10 text-center text-gray-400">
+          Interactive tools to help you plan and execute your AI business.
+        </p>
+        <div className="grid gap-4 sm:grid-cols-3">
+          <a
+            href="/tools/roi-calculator"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-blue-500/50 hover:bg-blue-500/5"
+          >
+            <span className="mb-3 block text-3xl">📊</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-blue-400">
+              AI ROI Calculator
+            </h3>
+            <p className="text-sm text-gray-400">
+              Calculate how much time &amp; money AI automation saves you.
+            </p>
+          </a>
+          <a
+            href="/tools/prompt-generator"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-green-500/50 hover:bg-green-500/5"
+          >
+            <span className="mb-3 block text-3xl">✨</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-green-400">
+              Prompt Generator
+            </h3>
+            <p className="text-sm text-gray-400">
+              15 templates to generate perfect AI prompts instantly.
+            </p>
+          </a>
+          <a
+            href="/tools/name-power"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-purple-500/50 hover:bg-purple-500/5"
+          >
+            <span className="mb-3 block text-3xl">🔤</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-purple-400">
+              Name Power Analyzer
+            </h3>
+            <p className="text-sm text-gray-400">
+              Analyze and score your business name for memorability &amp; impact.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="mx-auto h-px w-2/3 bg-gray-800" />
+
       {/* Products */}
       <section className="flex flex-col items-center px-6 py-24 text-center">
         <h2 className="mb-4 text-3xl font-bold md:text-4xl">
