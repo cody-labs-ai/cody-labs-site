@@ -298,6 +298,42 @@ export default function Home() {
               Generate a complete privacy policy for your site in seconds.
             </p>
           </a>
+          <a
+            href="/tools/meeting-cost"
+            className="group rounded-xl border border-red-800/50 bg-gray-900/50 p-6 transition hover:border-red-500/50 hover:bg-red-500/5"
+          >
+            <span className="mb-3 block text-3xl">⏱️</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-red-400">
+              Meeting Cost Calculator
+            </h3>
+            <p className="text-sm text-gray-400">
+              See how much your meetings really cost. Live timer included.
+            </p>
+          </a>
+          <a
+            href="/tools/saas-pricing"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-cyan-500/50 hover:bg-cyan-500/5"
+          >
+            <span className="mb-3 block text-3xl">💰</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-cyan-400">
+              SaaS Pricing Calculator
+            </h3>
+            <p className="text-sm text-gray-400">
+              MRR, LTV, CAC — know your SaaS metrics instantly.
+            </p>
+          </a>
+          <a
+            href="/tools/cold-email"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-amber-500/50 hover:bg-amber-500/5"
+          >
+            <span className="mb-3 block text-3xl">📧</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-amber-400">
+              Cold Email Generator
+            </h3>
+            <p className="text-sm text-gray-400">
+              10 subject lines + full email template. Copy and send.
+            </p>
+          </a>
         </div>
       </section>
 
