@@ -251,43 +251,45 @@ export default function Home() {
         <p className="mb-8 text-gray-400">
           Get the playbook. Start today. No employees needed.
         </p>
-        <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:justify-center">
-          <a
-            href="https://codylabsai.gumroad.com/l/nfsbmn"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold transition hover:bg-blue-500"
-          >
-            Get the Playbook — $19
-          </a>
+        <a
+          href="https://codylabsai.gumroad.com/l/nfsbmn"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold transition hover:bg-blue-500"
+        >
+          Get the Playbook — $19
+        </a>
+        <p className="mt-3 text-sm text-gray-500">
+          30-day money-back guarantee · 87 pages · 12 templates
+        </p>
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
           <a
             href="https://codylabsai.gumroad.com/l/usuet"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full border border-blue-600 px-8 py-4 text-lg font-semibold text-blue-400 transition hover:bg-blue-600 hover:text-white"
+            className="text-sm text-gray-500 transition hover:text-blue-400"
           >
             CEO Config Pack — $39
           </a>
+          <span className="text-gray-700">·</span>
           <a
             href="https://codylabsai.gumroad.com/l/wjpelw"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full border border-green-500 px-8 py-4 text-lg font-semibold text-green-400 transition hover:bg-green-600 hover:text-white"
+            className="text-sm text-gray-500 transition hover:text-green-400"
           >
             Prompt Templates — $9
           </a>
+          <span className="text-gray-700">·</span>
           <a
             href="https://codylabsai.gumroad.com/l/zoallh"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full border border-purple-500 px-8 py-4 text-lg font-semibold text-purple-400 transition hover:bg-purple-600 hover:text-white"
+            className="text-sm text-gray-500 transition hover:text-purple-400"
           >
-            Landing Page Templates — $19
+            LP Templates — $19
           </a>
         </div>
-        <p className="mt-6 text-sm text-gray-500">
-          All products come with a 30-day money-back guarantee. No risk.
-        </p>
       </section>
 
       {/* Footer */}
