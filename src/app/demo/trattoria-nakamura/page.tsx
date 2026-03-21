@@ -45,8 +45,8 @@ export default function TrattoriaNakamuraPage() {
               東京・西荻窪の隠れ家イタリアン
             </span>
             <h1 className="mt-8 font-serif text-5xl leading-tight text-[#2c2418] sm:text-6xl lg:text-7xl">
-              Trattoria
-              <span className="block text-[#8b6234]">Nakamura</span>
+              トラットリア
+              <span className="block text-[#8b6234]">ナカムラ</span>
             </h1>
             <p className="mt-5 text-lg font-medium tracking-[0.15em] text-[#7a5c3a] sm:text-xl">
               手打ちパスタと旬のイタリア料理
