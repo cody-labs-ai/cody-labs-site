@@ -107,9 +107,9 @@ export default function SpeakeasyPage() {
             style={{ transition: "transform 12s ease-out", transform: heroLoaded ? "scale(1)" : "scale(1.08)" }}
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0F1A14]/95 via-[#0F1A14]/60 to-[#0F1A14]/15" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0F1A14]/95 via-[#0F1A14]/70 to-[#0F1A14]/25" />
 
-          <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col justify-end px-6 pb-20 sm:px-8 lg:px-12" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}>
+          <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col justify-end px-6 pb-20 sm:px-8 lg:px-12" style={{ textShadow: "0 2px 12px rgba(0,0,0,0.9), 0 0 4px rgba(0,0,0,0.6)" }}>
             <span
               className="inline-flex w-fit items-center border border-[#B8976A]/30 bg-[#B8976A]/5 px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-[#B8976A] backdrop-blur-md"
               style={{ opacity: heroLoaded ? 1 : 0, transform: heroLoaded ? "translateY(0)" : "translateY(20px)", transition: "all 1s cubic-bezier(0.22,1,0.36,1) 0.3s" }}
@@ -126,14 +126,14 @@ export default function SpeakeasyPage() {
             </h1>
 
             <p
-              className="mt-5 text-[15px] font-light tracking-[0.2em] text-[#8A9B8E] sm:text-base"
+              className="mt-5 text-[15px] font-light tracking-[0.2em] text-[#D0DDD4] sm:text-base"
               style={{ opacity: heroLoaded ? 1 : 0, transition: "opacity 1s ease 0.9s" }}
             >
               化学調味料不使用の、素材を活かしたイタリアン
             </p>
 
             <p
-              className="mt-6 max-w-md text-[15px] leading-[1.9] text-[#7A8B7E] sm:text-base"
+              className="mt-6 max-w-md text-[15px] leading-[1.9] text-[#C0CEC4] sm:text-base"
               style={{ opacity: heroLoaded ? 1 : 0, transition: "opacity 1s ease 1.1s" }}
             >
               西荻窪駅南口から路地を入った先に、ひっそりと灯る小さなトラットリア。
