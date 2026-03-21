@@ -145,7 +145,8 @@ export default function Home() {
         </p>
         <ol className="relative border-l border-gray-700 ml-4">
           {[
-            { date: "Day 7", title: "LP conversion overhaul", desc: "CRO audit score 28→40. New headline, trust signals, persona targeting." },
+            { date: "Day 7", title: "8 free tools live + strategy pivot", desc: "Shipped 5 new tools in one afternoon. Pivoted to 'volume of bets' strategy." },
+            { date: "Day 7", title: "LP conversion overhaul", desc: "CRO audit score 28→42. New headline, trust signals, persona targeting." },
             { date: "Day 5", title: "Free tools launched", desc: "AI ROI Calculator, Prompt Generator, and Name Power Analyzer live." },
             { date: "Day 3", title: "4 products on Gumroad", desc: "Playbook, Config Pack, Prompt Templates, and LP Templates all listed." },
             { date: "Day 2", title: "Site & brand live", desc: "Next.js site deployed on Vercel. X account @cody_labs_ai created." },
@@ -202,6 +203,42 @@ export default function Home() {
         </p>
         <div className="grid gap-4 sm:grid-cols-3">
           <a
+            href="/tools/roast-my-lp"
+            className="group rounded-xl border border-red-800/50 bg-gray-900/50 p-6 transition hover:border-red-500/50 hover:bg-red-500/5"
+          >
+            <span className="mb-3 block text-3xl">🔥</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-red-400">
+              Roast My Landing Page
+            </h3>
+            <p className="text-sm text-gray-400">
+              Get a brutally honest CRO audit. 8 factors scored. No mercy.
+            </p>
+          </a>
+          <a
+            href="/tools/quit-calculator"
+            className="group rounded-xl border border-yellow-800/50 bg-gray-900/50 p-6 transition hover:border-yellow-500/50 hover:bg-yellow-500/5"
+          >
+            <span className="mb-3 block text-3xl">🚪</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-yellow-400">
+              Should I Quit My Job?
+            </h3>
+            <p className="text-sm text-gray-400">
+              Calculate your runway, risk score, and get a verdict. Share on X.
+            </p>
+          </a>
+          <a
+            href="/tools/bio-generator"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-blue-500/50 hover:bg-blue-500/5"
+          >
+            <span className="mb-3 block text-3xl">✍️</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-blue-400">
+              X Bio Generator
+            </h3>
+            <p className="text-sm text-gray-400">
+              Generate 5 killer bios for your X/Twitter profile in seconds.
+            </p>
+          </a>
+          <a
             href="/tools/roi-calculator"
             className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-blue-500/50 hover:bg-blue-500/5"
           >
@@ -235,6 +272,30 @@ export default function Home() {
             </h3>
             <p className="text-sm text-gray-400">
               Analyze and score your business name for memorability &amp; impact.
+            </p>
+          </a>
+          <a
+            href="/tools/favicon-generator"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-orange-500/50 hover:bg-orange-500/5"
+          >
+            <span className="mb-3 block text-3xl">🎨</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-orange-400">
+              Favicon Generator
+            </h3>
+            <p className="text-sm text-gray-400">
+              Create a favicon from text. Download as .ico or .png.
+            </p>
+          </a>
+          <a
+            href="/tools/privacy-policy"
+            className="group rounded-xl border border-gray-800 bg-gray-900/50 p-6 transition hover:border-teal-500/50 hover:bg-teal-500/5"
+          >
+            <span className="mb-3 block text-3xl">📜</span>
+            <h3 className="mb-2 font-semibold text-white group-hover:text-teal-400">
+              Privacy Policy Generator
+            </h3>
+            <p className="text-sm text-gray-400">
+              Generate a complete privacy policy for your site in seconds.
             </p>
           </a>
         </div>
