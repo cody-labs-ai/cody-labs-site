@@ -107,9 +107,9 @@ export default function TrattoriaNakamuraPage() {
             style={{ transition: "transform 12s ease-out", transform: heroLoaded ? "scale(1)" : "scale(1.08)" }}
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0d0804]/95 via-[#0d0804]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0d0804]/95 via-[#0d0804]/60 to-[#0d0804]/15" />
 
-          <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col justify-end px-6 pb-20 sm:px-8 lg:px-12">
+          <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col justify-end px-6 pb-20 sm:px-8 lg:px-12" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}>
             <span
               className="inline-flex w-fit items-center border border-white/15 bg-white/5 px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a] backdrop-blur-md"
               style={{ opacity: heroLoaded ? 1 : 0, transform: heroLoaded ? "translateY(0)" : "translateY(20px)", transition: "all 1s cubic-bezier(0.22,1,0.36,1) 0.3s" }}
