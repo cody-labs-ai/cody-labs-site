@@ -63,7 +63,7 @@ export default function Home() {
             {
               icon: "🚀",
               title: "Scaling Without Hiring",
-              desc: "Grow from $0 to $1M without a single employee.",
+              desc: "Grow your revenue without adding a single employee.",
             },
           ].map((item) => (
             <li key={item.title} className="flex items-start gap-4">
