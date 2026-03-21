@@ -4,7 +4,7 @@ const services = [
   {
     title: "Precision Cuts",
     description:
-      "Tailored women’s, men’s, and children’s cuts designed to flatter your features and lifestyle.",
+      "Tailored women's, men's, and children's cuts designed to flatter your features and lifestyle.",
   },
   {
     title: "Custom Color",
@@ -58,9 +58,8 @@ export default function UglyDucklingPage() {
               Simple. Elegant. Beauty.
             </p>
             <p className="mt-8 max-w-2xl text-base leading-8 text-[#4e4033] sm:text-lg">
-              A warm, inviting salon experience designed around healthy, beautiful hair.
-              This concept redesign brings a refined, modern presence to one of Irvington’s
-              premier appointment-only salons.
+              Where beauty meets intention. A warm, inviting salon experience
+              designed around healthy, beautiful hair in the heart of Irvington.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <a
@@ -102,11 +101,10 @@ export default function UglyDucklingPage() {
             <p className="mt-6 text-base leading-8 text-[#564636] sm:text-lg">
               The Ugly Duckling Hair Salon is known as a premier salon in the Essex County area,
               offering a welcoming environment where clients can relax and receive thoughtful,
-              detail-oriented service. This redesign concept positions the brand with a premium,
-              editorial feel while keeping the message approachable and inviting.
+              detail-oriented service with a warm, family atmosphere.
             </p>
             <p className="mt-5 text-base leading-8 text-[#564636] sm:text-lg">
-              Every touchpoint is centered on elegance, comfort, and hair health — from precision
+              Every touchpoint is centered on elegance, comfort, and hair health - from precision
               cuts and custom color to treatments, protective styling, and extensions.
             </p>
           </div>
@@ -124,8 +122,8 @@ export default function UglyDucklingPage() {
               <div>
                 <dt className="text-xs uppercase tracking-[0.24em] text-[#d8c2a3]">Hours</dt>
                 <dd className="mt-2 space-y-1 text-base leading-7 text-[#f2e8db]">
-                  <p>Tue–Fri: 9am–6pm</p>
-                  <p>Sat: 6am–3pm</p>
+                  <p>Tue-Fri: 9am-6pm</p>
+                  <p>Sat: 6am-3pm</p>
                   <p>Appointments only</p>
                 </dd>
               </div>
@@ -168,8 +166,8 @@ export default function UglyDucklingPage() {
               <div>
                 <p className="text-xs uppercase tracking-[0.24em] text-[#8e6d45]">Opening hours</p>
                 <div className="mt-2 space-y-1 text-lg leading-8">
-                  <p>Tuesday – Friday: 9am – 6pm</p>
-                  <p>Saturday: 6am – 3pm</p>
+                  <p>Tuesday - Friday: 9am - 6pm</p>
+                  <p>Saturday: 6am - 3pm</p>
                   <p>Sunday & Monday: Closed</p>
                 </div>
               </div>
