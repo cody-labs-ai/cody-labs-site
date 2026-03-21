@@ -91,12 +91,12 @@ export default function TrattoriaNakamuraPage() {
     <>
       {/* Google Fonts */}
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap');
         .font-cormorant { font-family: 'Cormorant Garamond', serif; }
-        .font-noto { font-family: 'Noto Sans JP', sans-serif; }
+        .font-noto { font-family: 'Noto Serif JP', serif; }
       `}</style>
 
-      <main className="font-noto min-h-screen bg-[#faf6f1] text-[#2c2418]">
+      <main className="font-noto min-h-screen bg-[#F5F0EB] text-[#2c2418]">
         {/* ═══════ Hero ═══════ */}
         <section className="relative min-h-screen overflow-hidden">
           <Image
@@ -111,7 +111,7 @@ export default function TrattoriaNakamuraPage() {
 
           <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col justify-end px-6 pb-20 sm:px-8 lg:px-12">
             <span
-              className="inline-flex w-fit items-center rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-[11px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a] backdrop-blur-md"
+              className="inline-flex w-fit items-center border border-white/15 bg-white/5 px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a] backdrop-blur-md"
               style={{ opacity: heroLoaded ? 1 : 0, transform: heroLoaded ? "translateY(0)" : "translateY(20px)", transition: "all 1s cubic-bezier(0.22,1,0.36,1) 0.3s" }}
             >
               東京・西荻窪の隠れ家イタリアン
@@ -146,13 +146,13 @@ export default function TrattoriaNakamuraPage() {
             >
               <a
                 href="tel:+81312345678"
-                className="inline-flex items-center justify-center rounded-full bg-[#d4a86a] px-9 py-4 text-sm font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(212,168,106,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e0b87a] hover:shadow-[0_18px_50px_rgba(212,168,106,0.35)]"
+                className="inline-flex items-center justify-center rounded bg-[#d4a86a] px-9 py-4 text-[13px] font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(212,168,106,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e0b87a] hover:shadow-[0_18px_50px_rgba(212,168,106,0.35)]"
               >
                 ご予約はお電話で
               </a>
               <a
                 href="#access"
-                className="inline-flex items-center justify-center rounded-full border border-white/20 px-9 py-4 text-sm font-medium tracking-wider text-white/80 transition-all duration-300 hover:border-white/40 hover:text-white"
+                className="inline-flex items-center justify-center rounded border border-white/20 px-9 py-4 text-[13px] font-medium tracking-wider text-white/80 transition-all duration-300 hover:border-white/40 hover:text-white"
               >
                 アクセス
               </a>
@@ -170,20 +170,20 @@ export default function TrattoriaNakamuraPage() {
 
         {/* ═══════ Feature highlights ═══════ */}
         <section className="mx-auto max-w-6xl px-6 py-24 sm:px-8 lg:px-12">
-          <div className="grid gap-6 sm:grid-cols-3">
+          <div className="grid gap-12 sm:grid-cols-3">
             {[
               { src: "https://images.unsplash.com/photo-1556761223-4c4282c73f77?w=500&h=300&fit=crop", title: "毎朝手打ちパスタ", desc: "生地から毎日手作り。もちもちの食感と小麦の香りをお楽しみください。" },
               { src: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=500&h=300&fit=crop", title: "旬の食材へのこだわり", desc: "市場で選んだ魚介、契約農家の野菜。素材の力を引き出す料理を。" },
               { src: "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&h=300&fit=crop", title: "厳選イタリアワイン", desc: "トスカーナ、ピエモンテ、シチリアなど各地のワインをお料理に合わせて。" },
             ].map((f, i) => (
               <Reveal key={f.title} delay={i * 0.15}>
-                <div className="group overflow-hidden rounded-2xl bg-white shadow-[0_4px_24px_rgba(44,36,24,0.06)] transition-all duration-500 hover:shadow-[0_12px_40px_rgba(44,36,24,0.12)] hover:-translate-y-1">
-                  <div className="relative h-52 overflow-hidden">
-                    <Image src={f.src} alt={f.title} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+                <div className="group overflow-hidden bg-[#FAF6F1] transition-all duration-500 hover:-translate-y-1">
+                  <div className="relative h-64 overflow-hidden">
+                    <Image src={f.src} alt={f.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
                   </div>
-                  <div className="p-6">
-                    <p className="font-semibold text-[#8b6234]">{f.title}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-[#5a4a38]">{f.desc}</p>
+                  <div className="px-2 py-6">
+                    <p className="font-semibold text-[15px] text-[#8b6234]">{f.title}</p>
+                    <p className="mt-2 text-[13px] leading-[2] text-[#5a4a38]">{f.desc}</p>
                   </div>
                 </div>
               </Reveal>
@@ -195,7 +195,7 @@ export default function TrattoriaNakamuraPage() {
         <Reveal>
           <section className="mx-auto max-w-6xl px-6 py-4 sm:px-8 lg:px-12">
             <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
-              <div className="overflow-hidden rounded-[2rem] bg-white shadow-[0_20px_60px_rgba(100,75,40,0.08)]">
+              <div className="overflow-hidden bg-[#FAF6F1] shadow-none">
                 <div className="relative h-72 overflow-hidden">
                   <Image
                     src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=400&fit=crop"
@@ -222,7 +222,7 @@ export default function TrattoriaNakamuraPage() {
                 </div>
               </div>
 
-              <div className="rounded-[2rem] bg-[#2c2418] p-8 text-[#f8f1e8] shadow-[0_22px_60px_rgba(44,36,24,0.22)] sm:p-10">
+              <div className="bg-[#2c2418] p-8 text-[#f8f1e8] sm:p-10">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a]">お店の情報</p>
                 <dl className="mt-8 space-y-7">
                   <div>
@@ -294,22 +294,21 @@ export default function TrattoriaNakamuraPage() {
             </div>
           </Reveal>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          <div className="mt-14 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             {menuItems.map((item, i) => (
               <Reveal key={item.title} delay={i * 0.1}>
-                <article className="group overflow-hidden rounded-2xl bg-white shadow-[0_4px_20px_rgba(44,36,24,0.05)] transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_16px_48px_rgba(44,36,24,0.12)]">
-                  <div className="relative h-48 overflow-hidden">
+                <article className="group overflow-hidden bg-[#FAF6F1] transition-all duration-500 hover:-translate-y-1">
+                  <div className="relative h-56 overflow-hidden">
                     <Image
                       src={item.image}
                       alt={item.title}
                       fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-lg font-semibold text-[#2c2418]">{item.title}</h3>
-                    <p className="mt-3 text-sm leading-[1.9] text-[#5a4a38]">{item.description}</p>
+                  <div className="px-2 py-6">
+                    <h3 className="text-[15px] font-semibold text-[#2c2418]">{item.title}</h3>
+                    <p className="mt-3 text-[13px] leading-[2] text-[#5a4a38]">{item.description}</p>
                   </div>
                 </article>
               </Reveal>
@@ -332,8 +331,8 @@ export default function TrattoriaNakamuraPage() {
         <Reveal>
           <section className="mx-auto max-w-6xl px-6 py-20 sm:px-8 lg:px-12">
             <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]" id="access">
-              <div className="rounded-[2rem] bg-[#f0e8dd] p-8 shadow-[0_20px_60px_rgba(100,75,40,0.06)] sm:p-10">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#8b6234]">アクセス</p>
+              <div className="bg-[#EDE6DB] p-8 sm:p-10">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-[#8b6234]">アクセス</p>
                 <h2 className="font-cormorant mt-4 text-3xl font-light text-[#2c2418] sm:text-4xl">
                   西荻窪駅から徒歩3分。
                 </h2>
@@ -357,7 +356,7 @@ export default function TrattoriaNakamuraPage() {
                 </div>
               </div>
 
-              <div className="overflow-hidden rounded-[2rem] border border-[#e2d0b8]/50 bg-white shadow-[0_22px_60px_rgba(44,36,24,0.08)]">
+              <div className="overflow-hidden bg-[#FAF6F1]">
                 <iframe
                   title="トラットリア・ナカムラへの地図"
                   src="https://www.google.com/maps?q=西荻窪駅&z=16&output=embed"
@@ -373,7 +372,7 @@ export default function TrattoriaNakamuraPage() {
         {/* ═══════ CTA ═══════ */}
         <Reveal>
           <section className="mx-auto max-w-6xl px-6 py-8 sm:px-8 lg:px-12">
-            <div className="relative overflow-hidden rounded-[2rem] shadow-[0_24px_60px_rgba(44,36,24,0.18)]">
+            <div className="relative overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?w=1200&h=500&fit=crop"
                 alt="テーブルに並ぶイタリア料理"
@@ -392,7 +391,7 @@ export default function TrattoriaNakamuraPage() {
                 </p>
                 <a
                   href="tel:+81312345678"
-                  className="mt-10 inline-flex min-h-14 items-center justify-center rounded-full bg-[#d4a86a] px-10 py-4 text-sm font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(212,168,106,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e0b87a] hover:shadow-[0_18px_50px_rgba(212,168,106,0.4)]"
+                  className="mt-10 inline-flex min-h-14 items-center justify-center rounded bg-[#d4a86a] px-10 py-4 text-[13px] font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(212,168,106,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e0b87a] hover:shadow-[0_18px_50px_rgba(212,168,106,0.4)]"
                 >
                   03-1234-5678 に電話する
                 </a>
@@ -420,7 +419,7 @@ export default function TrattoriaNakamuraPage() {
       <a
         href="tel:+81312345678"
         aria-label="電話で予約する"
-        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#d4a86a] shadow-[0_8px_24px_rgba(212,168,106,0.4)] transition-all duration-500 hover:scale-110 hover:shadow-[0_12px_32px_rgba(212,168,106,0.5)]"
+        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-lg bg-[#d4a86a] shadow-[0_8px_24px_rgba(212,168,106,0.4)] transition-all duration-500 hover:scale-110 hover:shadow-[0_12px_32px_rgba(212,168,106,0.5)]"
         style={{
           opacity: showFloat ? 1 : 0,
           transform: showFloat ? "translateY(0) scale(1)" : "translateY(20px) scale(0.8)",
