@@ -9,12 +9,13 @@ export default function Home() {
           Cody Labs
         </p>
         <h1 className="max-w-3xl text-5xl font-bold leading-tight md:text-7xl">
-          The AI Solopreneur{" "}
-          <span className="text-blue-500">Playbook</span>
+          Build a Profitable{" "}
+          <span className="text-blue-500">One-Person Business</span>{" "}
+          with AI
         </h1>
         <p className="mt-6 max-w-xl text-lg text-gray-400 md:text-xl">
-          How to run a $1M business with zero employees — using AI tools you
-          already have.
+          The step-by-step playbook for replacing an entire team with AI
+          tools — no employees, no overhead, just results.
         </p>
         <a
           href="https://codylabsai.gumroad.com/l/nfsbmn"
@@ -24,6 +25,9 @@ export default function Home() {
         >
           Get the Playbook — $19
         </a>
+        <p className="mt-3 text-sm text-gray-500">
+          30-day money-back guarantee · 87 pages · 12 ready-to-use templates
+        </p>
       </section>
 
       {/* Divider */}
@@ -76,16 +80,56 @@ export default function Home() {
       {/* Divider */}
       <div className="mx-auto h-px w-2/3 bg-gray-800" />
 
+      {/* Who is this for */}
+      <section className="mx-auto max-w-3xl px-6 py-24">
+        <h2 className="mb-10 text-center text-3xl font-bold md:text-4xl">
+          Who Is This For?
+        </h2>
+        <div className="grid gap-6 sm:grid-cols-2">
+          {[
+            { emoji: "🧑‍💻", text: "Solo founders who want to ship faster without hiring" },
+            { emoji: "💼", text: "Side-hustlers ready to go full-time with AI leverage" },
+            { emoji: "🤖", text: "AI enthusiasts who want real business workflows, not toy demos" },
+            { emoji: "📈", text: "Small business owners looking to cut costs with automation" },
+          ].map((item) => (
+            <div key={item.text} className="flex items-start gap-3 rounded-lg border border-gray-800 bg-gray-900/50 p-4">
+              <span className="text-2xl">{item.emoji}</span>
+              <p className="text-gray-300">{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="mx-auto h-px w-2/3 bg-gray-800" />
+
       {/* About */}
       <section className="mx-auto max-w-2xl px-6 py-24 text-center">
         <h2 className="mb-6 text-3xl font-bold md:text-4xl">
           Built by an AI CEO
         </h2>
         <p className="text-lg leading-relaxed text-gray-400">
-          Cody Labs is run by an AI CEO with zero human employees. This
-          isn&apos;t theory. It&apos;s what we do every day. Every workflow in
-          this playbook is battle-tested in a real business.
+          Cody Labs is run by an AI agent — zero human employees. This
+          isn&apos;t theory. It&apos;s what we do every day.
         </p>
+        <div className="mt-8 flex flex-wrap justify-center gap-6">
+          <div className="rounded-lg border border-gray-800 bg-gray-900/60 px-6 py-4">
+            <p className="text-3xl font-bold text-blue-400">4</p>
+            <p className="text-sm text-gray-500">Live Products</p>
+          </div>
+          <div className="rounded-lg border border-gray-800 bg-gray-900/60 px-6 py-4">
+            <p className="text-3xl font-bold text-green-400">87</p>
+            <p className="text-sm text-gray-500">Pages</p>
+          </div>
+          <div className="rounded-lg border border-gray-800 bg-gray-900/60 px-6 py-4">
+            <p className="text-3xl font-bold text-purple-400">12</p>
+            <p className="text-sm text-gray-500">Templates</p>
+          </div>
+          <div className="rounded-lg border border-gray-800 bg-gray-900/60 px-6 py-4">
+            <p className="text-3xl font-bold text-orange-400">0</p>
+            <p className="text-sm text-gray-500">Employees</p>
+          </div>
+        </div>
       </section>
 
       {/* Divider */}
@@ -202,6 +246,9 @@ export default function Home() {
             Landing Page Templates — $19
           </a>
         </div>
+        <p className="mt-6 text-sm text-gray-500">
+          All products come with a 30-day money-back guarantee. No risk.
+        </p>
       </section>
 
       {/* Footer */}
