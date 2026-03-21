@@ -111,7 +111,7 @@ export default function PizzeriaGinaPage() {
 
           <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col justify-end px-6 pb-20 sm:px-8 lg:px-12">
             <span
-              className="inline-flex w-fit items-center border border-white/15 bg-white/5 px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a] backdrop-blur-md"
+              className="inline-flex w-fit items-center border border-white/15 bg-white/5 px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-[#C75B3B] backdrop-blur-md"
               style={{ opacity: heroLoaded ? 1 : 0, transform: heroLoaded ? "translateY(0)" : "translateY(20px)", transition: "all 1s cubic-bezier(0.22,1,0.36,1) 0.3s" }}
             >
               東京・西荻窪のピッツェリア
@@ -122,7 +122,7 @@ export default function PizzeriaGinaPage() {
               style={{ opacity: heroLoaded ? 1 : 0, transform: heroLoaded ? "translateY(0)" : "translateY(30px)", transition: "all 1.2s cubic-bezier(0.22,1,0.36,1) 0.5s" }}
             >
               Pizzeria
-              <span className="block font-semibold italic text-[#d4a86a]">GINA</span>
+              <span className="block font-semibold italic text-[#C75B3B]">GINA</span>
             </h1>
 
             <p
@@ -147,7 +147,7 @@ export default function PizzeriaGinaPage() {
             >
               <a
                 href="tel:+81333940012"
-                className="inline-flex items-center justify-center rounded bg-[#d4a86a] px-9 py-4 text-[13px] font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(212,168,106,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e0b87a] hover:shadow-[0_18px_50px_rgba(212,168,106,0.35)]"
+                className="inline-flex items-center justify-center rounded bg-[#C75B3B] px-9 py-4 text-[13px] font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(199,91,59,0.25)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#D4694A] hover:shadow-[0_18px_50px_rgba(199,91,59,0.35)]"
               >
                 ご予約はお電話で
               </a>
@@ -183,7 +183,7 @@ export default function PizzeriaGinaPage() {
                     <Image src={f.src} alt={f.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
                   </div>
                   <div className="px-2 py-6">
-                    <p className="font-semibold text-[15px] text-[#8b6234]">{f.title}</p>
+                    <p className="font-semibold text-[15px] text-[#8B4513]">{f.title}</p>
                     <p className="mt-2 text-[13px] leading-[2] text-[#5a4a38]">{f.desc}</p>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ export default function PizzeriaGinaPage() {
                   />
                 </div>
                 <div className="p-8 sm:p-10">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#8b6234]">お店について</p>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#8B4513]">お店について</p>
                   <h2 className="font-cormorant mt-4 text-3xl font-light text-[#2c2418] sm:text-4xl">
                     西荻窪で12年。<br className="hidden sm:inline" />地元に愛されるピッツェリア。
                   </h2>
@@ -223,28 +223,28 @@ export default function PizzeriaGinaPage() {
               </div>
 
               <div className="bg-[#2c2418] p-8 text-[#f8f1e8] sm:p-10">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a]">お店の情報</p>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#C75B3B]">お店の情報</p>
                 <dl className="mt-8 space-y-7">
                   <div>
-                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#a08a6c]">電話番号</dt>
+                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#9B7160]">電話番号</dt>
                     <dd className="font-cormorant mt-2 text-2xl font-semibold tracking-wide">03-3394-0012</dd>
                   </div>
                   <div>
-                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#a08a6c]">住所</dt>
+                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#9B7160]">住所</dt>
                     <dd className="mt-2 text-[15px] leading-7 text-[#efe3d2]">
                       東京都杉並区西荻北2-26-3
                     </dd>
                   </div>
                   <div>
-                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#a08a6c]">営業時間</dt>
+                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#9B7160]">営業時間</dt>
                     <dd className="mt-2 space-y-1 text-[15px] leading-7 text-[#efe3d2]">
-                      <p>ランチ 11:30 – 15:00 <span className="text-[#a08a6c]">(L.O. 14:00)</span></p>
-                      <p>ディナー 17:00 – 22:00 <span className="text-[#a08a6c]">(L.O. 21:30)</span></p>
+                      <p>ランチ 11:30 – 15:00 <span className="text-[#9B7160]">(L.O. 14:00)</span></p>
+                      <p>ディナー 17:00 – 22:00 <span className="text-[#9B7160]">(L.O. 21:30)</span></p>
                       <p>定休日: 月曜（祝日の場合は翌火曜）</p>
                     </dd>
                   </div>
                   <div>
-                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#a08a6c]">席数</dt>
+                    <dt className="text-[10px] uppercase tracking-[0.3em] text-[#9B7160]">席数</dt>
                     <dd className="mt-2 text-[15px] leading-7 text-[#efe3d2]">24席（1階・2階 / 貸切可）</dd>
                   </div>
                 </dl>
@@ -271,8 +271,8 @@ export default function PizzeriaGinaPage() {
                 <p className="font-cormorant text-3xl italic leading-relaxed text-white/90 sm:text-4xl lg:text-5xl">
                   「生地と窯の対話から、<br />最高の一枚が生まれる。」
                 </p>
-                <div className="mx-auto mt-8 h-[1px] w-12 bg-[#d4a86a]" />
-                <p className="mt-6 text-sm tracking-[0.3em] text-[#c8ad88]">
+                <div className="mx-auto mt-8 h-[1px] w-12 bg-[#C75B3B]" />
+                <p className="mt-6 text-sm tracking-[0.3em] text-[#C4836A]">
                   Pizzeria GINA
                 </p>
               </div>
@@ -284,7 +284,7 @@ export default function PizzeriaGinaPage() {
         <section className="mx-auto max-w-6xl px-6 py-20 sm:px-8 lg:px-12">
           <Reveal>
             <div className="max-w-2xl">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#8b6234]">メニュー</p>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#8B4513]">メニュー</p>
               <h2 className="font-cormorant mt-4 text-3xl font-light text-[#2c2418] sm:text-4xl">
                 薪窯ピッツァと、イタリアの家庭料理。
               </h2>
@@ -332,21 +332,21 @@ export default function PizzeriaGinaPage() {
           <section className="mx-auto max-w-6xl px-6 py-20 sm:px-8 lg:px-12">
             <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]" id="access">
               <div className="bg-[#EDE6DB] p-8 sm:p-10">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-[#8b6234]">アクセス</p>
+                <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-[#8B4513]">アクセス</p>
                 <h2 className="font-cormorant mt-4 text-3xl font-light text-[#2c2418] sm:text-4xl">
                   西荻窪駅から徒歩5分。
                 </h2>
                 <div className="mt-8 space-y-6 text-[#5a4a38]">
                   <div>
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8b6234]">住所</p>
+                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8B4513]">住所</p>
                     <p className="mt-2 text-base leading-8">東京都杉並区西荻北2-26-3</p>
                   </div>
                   <div>
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8b6234]">最寄り駅</p>
+                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8B4513]">最寄り駅</p>
                     <p className="mt-2 text-base leading-8">JR中央線・総武線 西荻窪駅 北口より徒歩5分<br />バス通りを北上</p>
                   </div>
                   <div>
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8b6234]">営業時間</p>
+                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8B4513]">営業時間</p>
                     <div className="mt-2 space-y-1 text-base leading-8">
                       <p>ランチ 11:30 – 15:00</p>
                       <p>ディナー 17:00 – 22:00</p>
@@ -354,7 +354,7 @@ export default function PizzeriaGinaPage() {
                     </div>
                   </div>
                   <div>
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8b6234]">お支払い</p>
+                    <p className="text-[10px] uppercase tracking-[0.3em] text-[#8B4513]">お支払い</p>
                     <p className="mt-2 text-base leading-8">カード可（VISA/Master/JCB/AMEX/Diners）<br />PayPay可</p>
                   </div>
                 </div>
@@ -385,7 +385,7 @@ export default function PizzeriaGinaPage() {
               />
               <div className="absolute inset-0 bg-[#0d0804]/80" />
               <div className="relative mx-auto max-w-2xl px-8 py-20 text-center text-[#faf4ec] sm:py-24">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#d4a86a]">ご予約・お問い合わせ</p>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#C75B3B]">ご予約・お問い合わせ</p>
                 <h2 className="font-cormorant mt-5 text-3xl font-light sm:text-4xl lg:text-5xl">
                   焼きたてのピッツァで、<br />笑顔のひとときを。
                 </h2>
@@ -395,11 +395,11 @@ export default function PizzeriaGinaPage() {
                 </p>
                 <a
                   href="tel:+81333940012"
-                  className="mt-10 inline-flex min-h-14 items-center justify-center rounded bg-[#d4a86a] px-10 py-4 text-[13px] font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(212,168,106,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e0b87a] hover:shadow-[0_18px_50px_rgba(212,168,106,0.4)]"
+                  className="mt-10 inline-flex min-h-14 items-center justify-center rounded bg-[#C75B3B] px-10 py-4 text-[13px] font-semibold tracking-wider text-[#1a1008] shadow-[0_14px_40px_rgba(199,91,59,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#D4694A] hover:shadow-[0_18px_50px_rgba(199,91,59,0.4)]"
                 >
                   03-3394-0012 に電話する
                 </a>
-                <p className="mt-5 text-xs tracking-[0.2em] text-[#a08a6c]">
+                <p className="mt-5 text-xs tracking-[0.2em] text-[#9B7160]">
                   ランチ 11:30–15:00 / ディナー 17:00–22:00 / 月曜定休
                 </p>
               </div>
@@ -410,8 +410,8 @@ export default function PizzeriaGinaPage() {
         {/* ═══════ Footer ═══════ */}
         <footer className="px-6 pb-12 pt-20 text-center sm:px-8 lg:px-12">
           <div className="mx-auto max-w-6xl">
-            <div className="mx-auto mb-6 h-[1px] w-16 bg-[#d4c0a4]" />
-            <p className="font-cormorant text-lg italic text-[#a08a6c]">Pizzeria GINA</p>
+            <div className="mx-auto mb-6 h-[1px] w-16 bg-[#C9A090]" />
+            <p className="font-cormorant text-lg italic text-[#9B7160]">Pizzeria GINA</p>
             <p className="mt-3 text-[10px] uppercase tracking-[0.25em] text-[#b0a08c]">
               Website by Cody Labs · cody-labs-site.vercel.app
             </p>
@@ -423,7 +423,7 @@ export default function PizzeriaGinaPage() {
       <a
         href="tel:+81333940012"
         aria-label="電話で予約する"
-        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-lg bg-[#d4a86a] shadow-[0_8px_24px_rgba(212,168,106,0.4)] transition-all duration-500 hover:scale-110 hover:shadow-[0_12px_32px_rgba(212,168,106,0.5)]"
+        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-lg bg-[#C75B3B] shadow-[0_8px_24px_rgba(199,91,59,0.4)] transition-all duration-500 hover:scale-110 hover:shadow-[0_12px_32px_rgba(199,91,59,0.5)]"
         style={{
           opacity: showFloat ? 1 : 0,
           transform: showFloat ? "translateY(0) scale(1)" : "translateY(20px) scale(0.8)",
